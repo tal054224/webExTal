@@ -1,0 +1,62 @@
+
+html, body{
+    min-height: 100% !important;
+    height: 100%;
+}
+
+body{
+    background-color: #e4f9f5;
+    margin:0;
+    font-family: sans-serif;
+}
+
+#top{
+    /*background-color: #30e3ca;*/
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+#middle{
+    height: 200px;
+    width: 200px;
+    height:97%;
+    background-color: #11999e;
+}
+
+#bottom{
+    height: 200px;
+    width: 200px;
+    background-color: #40514e;
+}
+
+.cloud-top{
+    position: absolute;
+    right: 150px;
+    top:50px;
+}
+
+.cloud-bottom{
+    position: absolute;
+    left:300px;
+    top:px;
+ }
+
+#mountain{
+
+}
+
+.pFont{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.underline{
+    text-decoration: underline;
+
+}
+
+#myName{
+    font-family: 'Caveat', cursive;
+    font-size: 52px;
+}
