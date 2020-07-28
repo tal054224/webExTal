@@ -1,54 +1,65 @@
+hr{
+    border:none;
+    border-top: dotted 8px;
+    border-color: #EAF6F6;
+    height: 0;
+    width: 10%;
+}
 
-html, body{
-    min-height: 100% !important;
-    height: 100%;
+h2, h3{
+    font-family: 'Varela Round', sans-serif;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
 }
 
 body{
-    background-color: #e4f9f5;
-    margin:0;
-    font-family: sans-serif;
+    background-color: white;
+    margin:0px;
+    padding: 0;
+    font-family: sans-serif;    
 }
 
 #top{
-    /*background-color: #30e3ca;*/
+    height:100%;
+    padding-top: 30px;
     text-align: center;
-    position: relative;
-    padding-top: 100px;
+    background-color: #e4f9f5;
 }
 
 #middle{
-    height: 200px;
-    width: 200px;
-    height:97%;
-    background-color: #11999e;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 #bottom{
-    height: 200px;
-    width: 200px;
-    background-color: #40514e;
+    margin-top: 50px;
+    margin-bottom: 0;
+    background-color: #ffffdd;
+    padding: 20px;
+    text-align: center;
 }
 
 .cloud-top{
+    display: inline;
     position: absolute;
     right: 150px;
     top:50px;
+    z-index: 1;
 }
 
 .cloud-bottom{
     position: absolute;
     left:300px;
-    top:px;
  }
 
-#mountain{
-
-}
 
 .pFont{
-    font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    font-family: 'Indie Flower', cursive;   
+    font-size: 30px;
 }
 
 .underline{
@@ -57,6 +68,105 @@ body{
 }
 
 #myName{
+    position: relative;
     font-family: 'Caveat', cursive;
-    font-size: 52px;
+    font-size: 562.5%;
+    margin-top: 0px;
+    z-index: 2;
+}
+
+.generalPic.roundPic{
+    border-radius: 100%;
+}
+
+.generalPic{
+    width: 25% ;
+    margin: 20px;
+}
+
+#mainPic{
+    height: 300px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.footerLink{
+    color: #40514e;
+    font-size: 20px;
+   /* display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+    */
+    text-decoration: none;
+    display: block;
+    font-weight: 900;
+}
+
+.contactLogo{
+    height: 50px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.skills{
+    margin-top: 60px;
+}
+
+.skill-row{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill{
+    float: left;
+}
+
+.align{
+    margin-top: 30px;
+}
+
+.contactRow{
+    display: inline-block;
+    width:25%;
+    margin: auto 60px auto 60px;
+}
+
+.profile{
+    margin-top: 30px;
+}
+
+.contact-me{
+    line-height: 2;
+}
+
+#allRights{
+    position: absolute;
+    margin-top: 0px;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+    color:#777777;
+    font-family: 'Varela Round', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
 }
